@@ -9,7 +9,8 @@ List<Product> products = new List<Product>()
     new Product() {Id=2,PName="Laptop",PBrand="HP\t",MfgDate=new DateTime(day:11,month:01,year:2023),ExpDate=new DateTime(day:12,month:12,year:2025)},
     new Product() {Id=3,PName="Earpods",PBrand="Boat\t",MfgDate=new DateTime(day:10,month:06,year:2021),ExpDate=new DateTime(day:12,month:12,year:2024)},
     new Product() {Id=4,PName="Tab",PBrand="Redmi\t",MfgDate=new DateTime(day:25,month:12,year:2020),ExpDate=new DateTime(day:12,month:12,year:2023)},
-    new Product() {Id=5,PName="Trimmer",PBrand="Phillips",MfgDate=new DateTime(day:28,month:10,year:2020),ExpDate=new DateTime(day:12,month:12,year:2022)}
+    new Product() {Id=5,PName="Trimmer",PBrand="Phillips",MfgDate=new DateTime(day:28,month:10,year:2020),ExpDate=new DateTime(day:12,month:12,year:2022)},
+    new Product() {Id=6,PName="Powerbank",PBrand="Dell",MfgDate=new DateTime(day:18,month:09,year:2022),ExpDate=new DateTime(day:26,month:11,year:2024)}
 };
 
 Console.WriteLine("ID\t PName \t PBrand \t MfgDate \t\t ExpDate");
